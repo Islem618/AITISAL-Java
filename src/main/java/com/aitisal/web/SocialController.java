@@ -1,4 +1,4 @@
-package main.java.com.aitisal.web;
+package com.aitisal.web;
 
 import com.aitisal.model.*;
 import com.aitisal.repo.PostRepo;

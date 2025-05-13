@@ -1,4 +1,4 @@
-package main.java.com.aitisal.model;
+package com.aitisal.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

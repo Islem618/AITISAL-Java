@@ -1,4 +1,4 @@
-package main.java.com.aitisal.service;
+package com.aitisal.service;
 
 import com.aitisal.model.*;
 import com.aitisal.repo.*;

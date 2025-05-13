@@ -1,4 +1,4 @@
-package main.java.com.aitisal.repo;
+package com.aitisal.repo;
 
 import com.aitisal.model.*;
 import org.springframework.data.jpa.repository.JpaRepository;
