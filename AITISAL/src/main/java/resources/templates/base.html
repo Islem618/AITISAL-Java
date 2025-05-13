@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title th:replace="~{::title}">Aitisal</title>
+</head>
+<body>
+<nav class="nav">
+    <a th:href="@{/}" class="nav-link">Aitisal</a>
+    <a th:href="@{/users/login}" class="nav-link">Login</a>
+    <a th:href="@{/users/register}" class="nav-link">Register</a>
+    <a th:href="@{/social/feed}" class="nav-link">Feed</a>
+    <a th:href="@{/social/post/new}" class="nav-link">New Post</a>
+</nav>
+<div class="container mt-3" th:replace="~{::body}"></div>
+</body>
+</html>
